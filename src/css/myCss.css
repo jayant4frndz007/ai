@@ -1,0 +1,390 @@
+.subheaderimg{
+    position: absolute;
+    top:15%;
+    right:300px;
+}
+.header{
+    height:680px;
+    width: 100%;
+    overflow: hidden;
+}
+.headerimg{
+    position: absolute;
+    top:5%;
+    left:200px;
+}
+.sidecontent{
+    position: absolute;
+    color: #ffff;
+    top: 40%;
+    width: 250px;
+    left:250px;
+}
+.sidecontent p{
+    font-size: small;
+}
+.sidecontent label{
+    font-size: 32px;
+    font-weight: bold;
+}
+.sidecontent button{
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    color: blue;
+    font-size: 14px;
+    margin-top: 50px;
+}
+.headermenu{
+    position: absolute;
+    top:5%;
+    right:200px;
+}
+ul{
+    display: flex;
+}
+a{
+    color:white
+}
+ li{
+    text-decoration: none;
+    color:white;
+    list-style-type: none;
+    padding: 0px 10px 10px 10px;
+    font-size: small;
+    cursor: pointer;
+    
+}
+a :hover{
+    text-decoration: none;
+    color:rgb(228, 207, 207);
+    list-style-type: none;
+    padding: 0px 10px 10px 10px;
+    font-size: small;
+    cursor: pointer;
+}
+.uldata{
+    display: inline;
+}
+.uldata li{
+    list-style-type: square ;
+}
+.box{
+  height: 280px;
+  width: 250px;
+  background-color: rgb(127, 127, 204);
+  margin: 10px;
+  border-radius: 10px;
+}
+.boxdata{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.card1{
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.card1:hover {
+   
+ background-color: blue;
+ border-radius: 10px;
+ color: white;
+   
+}
+
+.card-body img{
+    width: 80px;
+    height: 80px;
+    
+}
+.sidemain{
+    margin-left: 200px;
+}
+.sidemain label{
+    width: 370px;
+}
+.sidemain button{
+    margin-top: 70px;
+}
+li :hover{
+    color: #cccc;
+}
+
+.bubbels{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    z-index: 0;
+    overflow: hidden;
+    top:0;
+    left:0;
+}
+.bubble{
+    position: absolute;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+    background: #f1f1f1;
+    border-radius: 50%;
+    opacity: 0.1;
+    animation: flying 10s infinite ease-in;
+}
+.bubble:nth-child(1){
+    width: 40px;
+    height:40px;
+    left:10%;
+    animation-duration: 8s;
+}
+.bubble:nth-child(2){
+    width: 20px;
+    height:20px;
+    left:20%;
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+.bubble:nth-child(3){
+    width: 50px;
+    height:50px;
+    left:30%;
+    animation-duration: 8s;
+    animation-delay: 2s;
+}
+.bubble:nth-child(4){
+    width: 10px;
+    height:10px;
+    left:35%;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+.bubble:nth-child(5){
+    width: 60px;
+    height:60px;
+    left:28%;
+    animation-duration: 9s;
+    animation-delay: 2s;
+}
+.bubble:nth-child(6){
+    width: 40px;
+    height:40px;
+    left:40%;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+.bubble:nth-child(7){
+    width: 35px;
+    height:35px;
+    left:50%;
+    animation-duration: 5s;
+    animation-delay: 1s;
+}
+.bubble:nth-child(8){
+    width: 25px;
+    height:25px;
+    left:30%;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+.bubble:nth-child(9){
+    width: 15px;
+    height:15px;
+    left:22%;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+.bubble:nth-child(10){
+    width: 40px;
+    height:40px;
+    left:48%;
+    animation-duration: 8s;
+    animation-delay: 2s;
+}
+@keyframes flying{
+    0%{
+        bottom:-100px;
+        transform: translateX(0);
+    }
+    50%{
+       
+        transform: translateX(100px);
+    }
+    100%{
+        bottom:1080px;
+        transform: translateX(-200px);
+    }
+}
+.main{
+    display: flex;
+   
+    width: 100%;
+   margin-top: 100px;
+    
+}
+.main label{
+    color: rgb(28, 28, 131);
+    font-size: 36px;
+}
+.mainbtn button{
+    background-color: rgb(74, 6, 138);
+    height: 30px;
+    width: 100px;
+    border-radius: 0%;
+    color: white;
+}
+
+.main1{
+    display: flex;
+ 
+}
+.main1content{
+    color:rgb(109, 91, 91);
+    width: 500px;
+    padding-left: 100px;
+}
+.main1content label{
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(67, 29, 155);
+}
+.main1content button{
+    background-color: rgb(67, 29, 155);
+    height: 30px;
+    width: 100px;
+    margin-top: 50px;
+    color: white;
+}
+.teamheader{
+    display: flex;
+    color: black;
+}
+.teamheader img{
+    position: relative;
+    height: 250px;
+    width: 100%;
+}
+
+
+.team{
+    position: absolute;
+    display: flex;
+    color:white;
+    margin-top: 20px;
+    margin-left: 20%;
+ }
+ .team .teamin{
+    padding: 50px;
+    margin-right: 20px;
+    text-align: center;
+ }
+ .teamin label{
+        font-size: 38px;
+ }
+
+ .work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:80px;
+ }
+
+ .work label{
+     font-size: x-large;
+     color: rgb(67, 29, 155)
+ }
+
+ .work p{
+     font-size: small;
+     width: 600px;
+     text-align: center;
+
+ }
+
+ .imgseries{
+     display: flex;
+    
+    padding: 0;
+    margin:0;
+    text-align: center;
+    overflow-x: hidden;
+ }
+
+ .imgseries img{
+     height: 300px;
+     width: 350px;
+     text-align: center;
+     margin-top: 20px;
+ }
+ .imgseries .boxseries:nth-child(1){
+     height: 350px;
+     width: auto;
+     background-color: rgb(175, 165, 163);
+ }
+ .imgseries .boxseries:nth-child(2){
+    height: 350px;
+    width: auto;
+    background-color: rgb(223, 111, 55);
+}
+.imgseries .boxseries:nth-child(3){
+    height: 350px;
+    width: auto;
+    background-color: rgb(175, 165, 163);
+}
+.imgseries .boxseries:nth-child(4){
+    height: 350px;
+    width: auto;
+    background-color: rgb(223, 111, 55);
+}
+.btnpart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+.btnpart button{
+    background-color: blue;
+    height: 30px;
+    width: 100px;
+    color:white;
+    
+}
+.footer{
+   position: relative;
+    margin-top: 80px;
+  
+}
+.footer img{
+    width: 100%;
+    height: 250px;
+    overflow-x: hidden;
+}
+.footerdata{
+    position: absolute;
+    top:20%;
+    display: flex;
+    color:white;
+    
+    
+   
+}
+.footerdata .data{
+    width: 320px;
+  
+}
+.footerdata .data img{
+    width: 150px;
+    height: 50px;
+ }
+.footerdata .data p{
+margin-top: 30px;
+font-size: small;
+width: 250px;
+    
+}
+
+ 
+ 
