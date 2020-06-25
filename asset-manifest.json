@@ -1,25 +1,32 @@
 {
   "files": {
     "main.css": "/ai/static/css/main.a8b30ee7.chunk.css",
-    "main.js": "/ai/static/js/main.f6c1a1ec.chunk.js",
-    "main.js.map": "/ai/static/js/main.f6c1a1ec.chunk.js.map",
+    "main.js": "/ai/static/js/main.f0080075.chunk.js",
+    "main.js.map": "/ai/static/js/main.f0080075.chunk.js.map",
     "runtime-main.js": "/ai/static/js/runtime-main.ad3b6d96.js",
     "runtime-main.js.map": "/ai/static/js/runtime-main.ad3b6d96.js.map",
-    "static/js/2.ade220e9.chunk.js": "/ai/static/js/2.ade220e9.chunk.js",
-    "static/js/2.ade220e9.chunk.js.map": "/ai/static/js/2.ade220e9.chunk.js.map",
+    "static/js/2.f04a6483.chunk.js": "/ai/static/js/2.f04a6483.chunk.js",
+    "static/js/2.f04a6483.chunk.js.map": "/ai/static/js/2.f04a6483.chunk.js.map",
     "index.html": "/ai/index.html",
-    "precache-manifest.5b02bc4e411cc0feea86564d3f4f362d.js": "/ai/precache-manifest.5b02bc4e411cc0feea86564d3f4f362d.js",
+    "precache-manifest.b2a27a76703b6358c2ef0791d05fe96b.js": "/ai/precache-manifest.b2a27a76703b6358c2ef0791d05fe96b.js",
     "service-worker.js": "/ai/service-worker.js",
     "static/css/main.a8b30ee7.chunk.css.map": "/ai/static/css/main.a8b30ee7.chunk.css.map",
-    "static/js/2.ade220e9.chunk.js.LICENSE.txt": "/ai/static/js/2.ade220e9.chunk.js.LICENSE.txt",
+    "static/js/2.f04a6483.chunk.js.LICENSE.txt": "/ai/static/js/2.f04a6483.chunk.js.LICENSE.txt",
     "static/media/Rectangle1.jpg": "/ai/static/media/Rectangle1.41115da1.jpg",
+    "static/media/Rectangle_10.jpg": "/ai/static/media/Rectangle_10.3e53067a.jpg",
+    "static/media/Rectangle_6.png": "/ai/static/media/Rectangle_6.b963af93.png",
     "static/media/Vector_Smart_Object.png": "/ai/static/media/Vector_Smart_Object.216dc739.png",
-    "static/media/logo.svg": "/ai/static/media/logo.5d5d9eef.svg"
+    "static/media/logo.svg": "/ai/static/media/logo.5d5d9eef.svg",
+    "static/media/undraw_career_progress_ivdb.png": "/ai/static/media/undraw_career_progress_ivdb.1a97bf04.png",
+    "static/media/undraw_christmas_tree_56sw.png": "/ai/static/media/undraw_christmas_tree_56sw.5b587ca5.png",
+    "static/media/undraw_developer_activity_bv83.png": "/ai/static/media/undraw_developer_activity_bv83.6118c0f0.png",
+    "static/media/undraw_fitness_tracker_3033.png": "/ai/static/media/undraw_fitness_tracker_3033.3ba5c935.png",
+    "static/media/undraw_hiking_d24r.png": "/ai/static/media/undraw_hiking_d24r.3179b52b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ad3b6d96.js",
-    "static/js/2.ade220e9.chunk.js",
+    "static/js/2.f04a6483.chunk.js",
     "static/css/main.a8b30ee7.chunk.css",
-    "static/js/main.f6c1a1ec.chunk.js"
+    "static/js/main.f0080075.chunk.js"
   ]
 }
